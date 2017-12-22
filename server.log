@@ -1,0 +1,359 @@
+Using CATALINA_BASE:   /goormService/tomcat7
+Using CATALINA_HOME:   /goormService/tomcat7
+Using CATALINA_TMPDIR: /goormService/tomcat7/temp
+Using JRE_HOME:        /usr/lib/jvm/java-8-openjdk-amd64
+Using CLASSPATH:       /goormService/tomcat7/bin/bootstrap.jar:/goormService/tomcat7/bin/tomcat-juli.jar
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server version:        Apache Tomcat/7.0.77
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server built:          Mar 28 2017 16:01:48 UTC
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server number:         7.0.77.0
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Name:               Linux
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            4.4.0-101-generic
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Architecture:          amd64
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Version:           1.8.0_141-8u141-b15-3~14.04-b15
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Vendor:            Oracle Corporation
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_BASE:         /goormService/tomcat7
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_HOME:         /goormService/tomcat7
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.config.file=/goormService/tomcat7/conf/logging.properties
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.endorsed.dirs=/goormService/tomcat7/endorsed
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.base=/goormService/tomcat7
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.home=/goormService/tomcat7
+12월 15, 2017 1:24:42 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.io.tmpdir=/goormService/tomcat7/temp
+12월 15, 2017 1:24:42 오전 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+12월 15, 2017 1:24:43 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8080"]
+12월 15, 2017 1:24:43 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-bio-8009"]
+12월 15, 2017 1:24:43 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 4878 ms
+12월 15, 2017 1:24:43 오전 org.apache.tomcat.util.digester.Digester fatalError
+심각: Parse Fatal Error at line 36 column 37: 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+org.xml.sax.SAXParseException; lineNumber: 36; columnNumber: 37; 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+12월 15, 2017 1:24:43 오전 org.apache.naming.NamingContext lookup
+경고: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 36; columnNumber: 37; 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+12월 15, 2017 1:24:43 오전 org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+심각: Exception processing Global JNDI Resources
+javax.naming.NamingException: 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:388)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:333)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:751)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+12월 15, 2017 1:24:43 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+12월 15, 2017 1:24:43 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.77
+12월 15, 2017 1:24:43 오전 org.apache.tomcat.util.digester.Digester fatalError
+심각: Parse Fatal Error at line 36 column 37: 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+org.xml.sax.SAXParseException; lineNumber: 36; columnNumber: 37; 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1105)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+12월 15, 2017 1:24:43 오전 org.apache.naming.NamingContext lookup
+경고: Unexpected exception resolving reference
+org.xml.sax.SAXParseException; lineNumber: 36; columnNumber: 37; 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1595)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:424)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:141)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:848)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1105)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+12월 15, 2017 1:24:43 오전 org.apache.catalina.realm.UserDatabaseRealm startInternal
+심각: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: 요소 유형 "user"과(와) 연관된 "password" 속성의 값에는 '<' 문자가 포함되지 않아야 합니다.
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:865)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:253)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1105)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+12월 15, 2017 1:24:43 오전 org.apache.catalina.realm.CombinedRealm startInternal
+심각: Failed to start "org.apache.catalina.realm.UserDatabaseRealm/1.0" realm
+org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:236)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1105)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:758)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+Caused by: org.apache.catalina.LifecycleException: No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 17 more
+
+12월 15, 2017 1:24:43 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+12월 15, 2017 1:24:46 오전 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [226] milliseconds.
+12월 15, 2017 1:24:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 2,695 ms
+12월 15, 2017 1:24:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/study
+12월 15, 2017 1:24:46 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+정보: validateJarFile(/goormService/tomcat7/webapps/study/WEB-INF/lib/servlet.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+12월 15, 2017 1:24:49 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/study has finished in 3,411 ms
+12월 15, 2017 1:24:49 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/host-manager
+12월 15, 2017 1:24:50 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 293 ms
+12월 15, 2017 1:24:50 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/examples
+12월 15, 2017 1:24:51 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 1,493 ms
+12월 15, 2017 1:24:51 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/ROOT
+12월 15, 2017 1:24:51 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 189 ms
+12월 15, 2017 1:24:51 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/docs
+12월 15, 2017 1:24:52 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 306 ms
+12월 15, 2017 1:24:52 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/manager
+12월 15, 2017 1:24:52 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 288 ms
+12월 15, 2017 1:24:52 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+12월 15, 2017 1:24:52 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-bio-8009"]
+12월 15, 2017 1:24:52 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 9293 ms
+12월 15, 2017 1:25:02 오전 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/study]
+12월 15, 2017 1:25:03 오전 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+12월 15, 2017 1:25:03 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/study
+12월 15, 2017 1:25:04 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+정보: validateJarFile(/goormService/tomcat7/webapps/study/WEB-INF/lib/servlet.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+12월 15, 2017 1:25:08 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/study has finished in 4,241 ms
+12월 15, 2017 1:25:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+12월 15, 2017 1:25:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 437 ms
+12월 15, 2017 1:25:20 오전 org.apache.catalina.core.StandardContext reload
+정보: Reloading Context with name [/study] has started
+12월 15, 2017 1:25:22 오전 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+심각: The web application [/study] appears to have started a thread named [http-bio-8080-exec-11] but has failed to stop it. This is very likely to create a memory leak.
+12월 15, 2017 1:25:22 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+정보: validateJarFile(/goormService/tomcat7/webapps/study/WEB-INF/lib/servlet.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+12월 15, 2017 1:25:35 오전 org.apache.catalina.core.StandardContext reload
+정보: Reloading Context with name [/study] is completed
+12월 15, 2017 1:25:45 오전 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/study]
+12월 15, 2017 1:25:46 오전 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+12월 15, 2017 1:25:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/study
+12월 15, 2017 1:25:46 오전 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+정보: validateJarFile(/goormService/tomcat7/webapps/study/WEB-INF/lib/servlet.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+12월 15, 2017 1:25:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/study has finished in 1,893 ms
+12월 15, 2017 1:25:58 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+12월 15, 2017 1:25:58 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 323 ms
